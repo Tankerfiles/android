@@ -1,7 +1,7 @@
 FROM totran/oracle-jdk
 
 ENV ANDROID_SDK_URL https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
-ENV ANDROID_COMPONENTS platform-tools, build-tools, android-23, extra-android-m2repository, extra-google-m2repository
+ENV ANDROID_COMPONENTS platform-tools, build-tools-23.0.3, android-23, extra-android-m2repository, extra-google-m2repository
 
 # Install base tools
 RUN apt update && \
